@@ -235,6 +235,7 @@ footer {
     border-radius: 50%;
     border: 1px solid #333;
     background: #1a1a1a;
+    color: #60a5fa;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -401,7 +402,8 @@ body.light-mode .print-btn:hover {
     border-color: #3b82f6;
 }
 
-body.light-mode .lang-toggle {
+body.light-mode .lang-toggle,
+body.light-mode .print-btn {
     color: #2563eb;
 }
 
